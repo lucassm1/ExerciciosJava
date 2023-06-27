@@ -23,4 +23,3 @@ public class Exercicio3 {
         sc.close();
     }
 }
-s
