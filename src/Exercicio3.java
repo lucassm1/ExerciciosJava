@@ -5,7 +5,7 @@ public class Exercicio3 {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         int EmployeeNumber, HoursWorked;
-        double ValuePerHour, Wage;
+        double ValuePerHour, Salary;
 
         System.out.println("Enter your employee number:");
             EmployeeNumber = sc.nextInt();
@@ -16,9 +16,9 @@ public class Exercicio3 {
         /*Use "," instead of "." Example: 10,50*/
         System.out.println("How much do you earn per hour worked: ");
             ValuePerHour = sc.nextDouble();
-            Wage = ValuePerHour * HoursWorked;
+            Salary = ValuePerHour * HoursWorked;
 
-        System.out.printf("Employee number: %d%nWage: $%.2f", EmployeeNumber, Wage);
+        System.out.printf("Employee number: %d%nSalary: $%.2f", EmployeeNumber, Salary);
 
         sc.close();
     }
